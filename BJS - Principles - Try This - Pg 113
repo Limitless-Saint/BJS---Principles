@@ -1,0 +1,16 @@
+#include "pch.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	char letter = 'a';
+	
+	for (int i = 97; i < 123; i = i + 1)
+		cout << letter << '\t' << i << '\n';
+		letter = letter + 1;
+  }
